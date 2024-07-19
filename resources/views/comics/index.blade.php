@@ -2,6 +2,7 @@
 
 @section('main')
     <h1>Comics list</h1>
+    <a href=" {{ route('comics.create') }}">Crea</a>
     <ul>
         @foreach ($comics as $comic)
             <li>
