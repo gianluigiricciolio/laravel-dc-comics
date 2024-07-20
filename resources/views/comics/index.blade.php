@@ -10,7 +10,7 @@
                 <form method="POST" action="{{ route('comics.destroy', $comic->id) }}">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" style="all:unset">Delete</button>
+                    <button onclick=" return confirm('Premi OK per cancellare')" type="submit">Delete</button>
                 </form>
                 <a href="{{ route('comics.show', $comic->id) }}">
                     {{ $comic->title }}
