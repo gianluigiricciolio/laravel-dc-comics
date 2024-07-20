@@ -13,3 +13,8 @@ Iniziate a definire le prime operazioni CRUD con le relative view:
 
 Bonus:
 creare il seeder per la tabella comics utilizzando il file in allegato.
+
+completate le operazioni CRUD.
+
+Bonus
+tramite javascript, quando l'utente clicca sul pulsante "delete", chiedere conferma della cancellazione, prima di eliminare l'elemento.
