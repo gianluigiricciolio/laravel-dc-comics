@@ -22,5 +22,7 @@ tramite javascript, quando l'utente clicca sul pulsante "delete", chiedere confe
 Bonus:
 
 validare gli input ricevuti in fase di creazione e modifica, rispondendo con errori chiari e in italiano.
+
+
 utilizzare le Request personalizzate per validare i dati
 Provate a gestire il titolo unico e validarlo in creazione e aggiornamento
